@@ -163,7 +163,8 @@ FROM daily_totals
 GROUP BY day_num, day_name
 ORDER BY day_num;
 ```
-![average steps vs minutes of the day](https://github.com/valentinamunozs/BellaBeat-Case-Study/blob/main/Average%20Steps%20per%20hour%20of%20day.png?raw=true) 
+![average steps vs minutes of the day](https://github.com/valentinamunozs/BellaBeat-Case-Study/blob/main/Average%20Active%20Minutes%20per%20Day%20of%20the%20Week.png?raw=true) 
+
 On average, users sleep between 6–7 hours per night, which meets minimum health guidelines but falls short of the optimal 8 hours.
 ```sql
 SELECT  Id, 
