@@ -184,6 +184,7 @@ SELECT Id,
 FROM `fitbit_data.sleep_day_clean`
 GROUP BY Id
 ```
+![sleep efficiency](https://github.com/valentinamunozs/BellaBeat-Case-Study/blob/main/Sleep%20efficiency.png?raw=true)
 
 To explore cross-behavior patterns, I examined the relationship between total sleep and calories burned. Results suggest that users with higher total sleep minutes also show higher calorie expenditure. Conversely, participants with very limited sleep logged significantly fewer calories burned.
 ```sql
