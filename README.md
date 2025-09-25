@@ -143,6 +143,8 @@ GROUP BY hour_of_day
 ORDER BY avg_steps DESC
 LIMIT 1;
 ```
+![average steps vs minutes of the day](Average Active Minutes per Day of the Week.png) 
+
 Weekly patterns reveal that Tuesdays and Saturdays are the most active days, while Sundays are the least active.
 ```sql
 WITH daily_totals AS (
