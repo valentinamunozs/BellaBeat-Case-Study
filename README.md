@@ -129,6 +129,7 @@ SELECT
 FROM `fitbit_data.daily_activity_clean`
 GROUP BY Id;
 ```
+![Steps vs calories](imagen.png)
 This aligns with expectations and validates the dataset’s reliability.
 Hourly trends show that physical activity peaks around 6 PM, indicating that evenings are the most active period for users. 
 ```sql
