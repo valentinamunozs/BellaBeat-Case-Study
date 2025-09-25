@@ -117,6 +117,7 @@ Out of 33 participants, only one consistently reached the widely recommended ben
 When analyzing activity minutes by category (sedentary, lightly active, fairly active, very active), the results show that sedentary time dominates the day, with active minutes forming only a small fraction of total time.
 
 ![Daily Steps Distribution](active_vs_sedentary.png)
+
 This supports the finding from step counts that overall physical activity is low.
 
 Analysis of average steps and calories burned per user revealed a positive relationship: higher step counts are consistently associated with greater calorie expenditure
