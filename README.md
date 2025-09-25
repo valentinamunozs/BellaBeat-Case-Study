@@ -143,7 +143,7 @@ GROUP BY hour_of_day
 ORDER BY avg_steps DESC
 LIMIT 1;
 ```
-![average steps vs minutes of the day](Average Active Minutes per Day of the Week.png) 
+![average steps vs minutes of the day](https://github.com/valentinamunozs/BellaBeat-Case-Study/blob/main/Average%20Steps%20per%20hour%20of%20day.png?raw=true) 
 
 Weekly patterns reveal that Tuesdays and Saturdays are the most active days, while Sundays are the least active.
 ```sql
@@ -163,6 +163,7 @@ FROM daily_totals
 GROUP BY day_num, day_name
 ORDER BY day_num;
 ```
+![average steps vs minutes of the day](https://github.com/valentinamunozs/BellaBeat-Case-Study/blob/main/Average%20Steps%20per%20hour%20of%20day.png?raw=true) 
 On average, users sleep between 6–7 hours per night, which meets minimum health guidelines but falls short of the optimal 8 hours.
 ```sql
 SELECT  Id, 
