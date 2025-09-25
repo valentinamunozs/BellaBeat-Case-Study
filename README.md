@@ -198,6 +198,8 @@ INNER JOIN `fitbit_data.sleep_day_clean` AS sleep
 ON daily.Id = sleep.Id AND daily.ActivityDate = sleep.SleepDate
 GROUP BY daily.Id; 
 ```
+![sleep vs calories](https://github.com/valentinamunozs/BellaBeat-Case-Study/blob/main/hours%20_of_sleep_%20vs_calories_burned.png?raw=true)
+
 ## Recommendations: 
 
 - Low daily step counts and high sedentary time indicate an opportunity for Bellabeat to design features that encourage movement throughout the day: personalized reminders, activity challenges, or progress streaks to motivate users to break up sedentary behavior. Campaigns or group challenges could be strategically promoted during peak engagement times (Tuesday evenings or Saturday mornings).
