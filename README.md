@@ -172,6 +172,8 @@ AVG(TotalMinutesAsleep) / 60 AS hours_asleep
 FROM `bellabeat-analysis-472517.fitbit_data.sleep_day_clean` 
 GROUP BY Id; 
 ```
+![average hours asleep](https://github.com/valentinamunozs/BellaBeat-Case-Study/blob/main/Average%20Hours%20Asleep%20per%20User.png?raw=true)
+
 Sleep efficiency (percentage of time in bed actually spent sleeping) is high across the dataset, averaging above 90%. This indicates that participants generally sleep soundly once in bed, but total sleep duration remains insufficient.
 ```sql
 SELECT Id, 
@@ -182,6 +184,7 @@ SELECT Id,
 FROM `fitbit_data.sleep_day_clean`
 GROUP BY Id
 ```
+
 To explore cross-behavior patterns, I examined the relationship between total sleep and calories burned. Results suggest that users with higher total sleep minutes also show higher calorie expenditure. Conversely, participants with very limited sleep logged significantly fewer calories burned.
 ```sql
 SELECT
