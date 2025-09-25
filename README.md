@@ -101,6 +101,7 @@ FROM `fitbit_data.hourly_steps`
   - hourly_steps_clean
     
 These cleaned datasets formed the foundation for the analysis.
+The full SQL cleaning queries are available here: [00-data-cleaning.sql](./sql/00-data-cleaning.sql) 
 
 ## Analysis and key findings 
 To identify trends in user activity that may inform Bellabeat’s product strategy, the analysis was structured into four areas: activity levels, calorie expenditure, sleep patterns, and relationships between behaviors. 
@@ -199,6 +200,9 @@ ON daily.Id = sleep.Id AND daily.ActivityDate = sleep.SleepDate
 GROUP BY daily.Id; 
 ```
 ![sleep vs calories](https://github.com/valentinamunozs/BellaBeat-Case-Study/blob/main/hours%20_of_sleep_%20vs_calories_burned.png?raw=true)
+
+You can explore the interactive dashboard on [Tableau Public](https://public.tableau.com/views/Bellabeat_17586476516080/Dashboard2?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link)
+
 
 ## Recommendations: 
 
